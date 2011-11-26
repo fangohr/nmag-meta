@@ -8,5 +8,6 @@ make &&
 echo "To install sundials in /usr/local, press return to run 'sudo make install' or CTRL+C to interrupt"
 read
 sudo make install
+cd ../..
 
 

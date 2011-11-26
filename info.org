@@ -1,3 +1,12 @@
+Need to call these scripts with the prefix 'nmag-meta-scripts' from
+the parent directory, i.e.
+
+$> sh nmag-meta-scripts/do-all.sh
+
+
+
+
+
 * install-sundials
 
 dowloads sundials2.3 and installs locally
@@ -9,4 +18,14 @@ clones the src, doc and test repositories into 'nsim-master'
 * compile-nmag
 
 compiles nmag, to be found in nsim-master
+
+* compile-nmag-doc
+
+compiles documentation 
+
+* do-all
+
+does all together (in the right order)
+
+
 

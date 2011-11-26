@@ -3,3 +3,5 @@
 
 #to compile using ubuntu's packages
 sudo aptitude install libpetsc3.1-dev libpetsc3.1 libfindlib-ocaml-dev libqhull-dev python-tables python-ply 
+#packages required to compile documentation
+sudo aptitude install python-sphinx dvipng texlive-latex-extra texlive-fonts-recommended

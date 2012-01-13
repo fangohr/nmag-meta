@@ -1,0 +1,13 @@
+cd nsim-master/src
+hg  fetch
+cd ../doc
+hg fetch
+cd ../test
+hg fetch
+cd ../www
+hg fetch
+cd ../dist
+hg fetch
+cd ../..
+sh nmag-meta-scripts/compile-nmag.sh
+sh nmag-meta-scripts/compile-nmag-doc.sh

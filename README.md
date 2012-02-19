@@ -10,19 +10,19 @@ please adapt the commands as necessary.
 
 Clone this repository, for example:
 
-:::shell
+:::sh
 
    hg clone https://fangohr@bitbucket.org/fangohr/nmag-meta
 
 or -- if you ssh key is known to bitbucket --:
 
-:::shell
+:::sh
 
    hg clone ssh://hg@bitbucket.org/fangohr/nmag-meta
 
 Then change the working directory to the `meta` directory into the cloned `nmag-meta` repository, i.e.
 
-:::shell
+:::sh
 
    cd nmag-meta/meta
 
@@ -32,13 +32,13 @@ To fetch the full source, doc, tests, install sundials 2.3 and all
 other packages, run the tests and build the documentation in one go,
 just run
 
-:::shell
+:::sh
 
    sh do-all.sh
 
 If you have sundials 2.3 already installed, you may want to use
 
-:::shell
+:::sh
 
    sh do-all-except-sundials.sh
 
@@ -58,34 +58,48 @@ Run:
 
 By running:
 
-:::shell
+:::sh
 
   sh clone-hgs.sh
 
 ## Install Sundials 2.3 ##
 
-:::shell
+:::sh
 
   sh install-sundials.sh
 
 ## Compile Nmag executables ##
 
-:::shell
+:::sh
 
   sh compile-nmag.sh
 
 ## Run regression tests ##
 
-:::shell
+:::sh
 
    sh run-tests.sh
 
 ## Build documentation ##
 
-:::shell
+:::sh
 
    sh compile-nmag-doc.sh
 
 
 
-Hans Fangohr, 19 Feb 2012
+# Repository structure and directory structure #
+
+:::sh
+
+   nmag-meta (hg root)
+      ├── dist (hg root nmag-dist)
+      ├── doc  (hg root nmag-doc)
+      ├── meta (useful scripts, part of hg nmag-meta)
+      ├── src  (hg root nmag-src)
+      ├── test (hg root nmag-test)
+      └── www (hg root nmag-www)
+
+
+
+Hans Fangohr, 19 Feb 2012 

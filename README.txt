@@ -9,25 +9,20 @@ please adapt the commands as necessary.
 
 .. contents:: Overview
 
+---------------
 
-Getting started -- cloning this NMAG-META repository
-====================================================
+Getting started: cloning this NMAG-META repository
+==================================================
 
 Clone this repository, for example::
 
-::
-
    hg clone https://fangohr@bitbucket.org/fangohr/nmag-meta
 
-or -- if you ssh key is known to bitbucket --:
-
-::
+or -- if your ssh key is known to bitbucket --::
 
    hg clone ssh://hg@bitbucket.org/fangohr/nmag-meta
 
-Then change the working directory to the `meta` directory into the cloned `nmag-meta` repository, i.e.
-
-::
+Then change the working directory to the `meta` directory into the cloned `nmag-meta` repository, i.e.::
 
    cd nmag-meta/meta
 

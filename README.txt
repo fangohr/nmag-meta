@@ -7,6 +7,8 @@ out from the bitbucket repositories.
 This is all tested on Ubuntu 11.10. If you use a different OS or distro,
 please adapt the commands as necessary.
 
+---------------
+
 .. contents:: Overview
 
 ---------------

@@ -4,5 +4,5 @@ sh install-sundials.sh
 sh compile-nmag.sh
 sh run-tests.sh
 sh compile-nmag-doc.sh
-#sh do-webpages.sh
+sh do-webpages.sh
 

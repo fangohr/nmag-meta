@@ -13,8 +13,8 @@ if [ $CURDIR = "meta" ]; then
 	hg clone ssh://hg@bitbucket.org/fangohr/nmag-doc doc
 	echo "Then nmag-dist..."
 	hg clone ssh://hg@bitbucket.org/fangohr/nmag-dist dist
-	#echo "Then nmag-www..."
-	#hg clone ssh://hg@bitbucket.org/fangohr/nmag-www www
+	echo "Then nmag-www..."
+	hg clone ssh://hg@bitbucket.org/fangohr/nmag-www www
 	
 	#if you haven't got the ssh key, then change the clone
 	#commands to something like

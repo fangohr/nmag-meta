@@ -1,11 +1,10 @@
-cd nsim-master/src
+cd ../src
+echo "About to configure compilation (generates Makefile)"
 python configure.py
+echo "About to run 'make'"
 make
-make install #creates nsim
-make check
-cd ../test/config
-../../src/bin/nsim setup.py
-cd ..
-make check
-echo make checkslow
-echo make checkhlib
+echo "About to run make install"
+#creates nsim executable
+make install 
+echo "To run tests, please execute 'run-tests.sh'"
+cd ../meta

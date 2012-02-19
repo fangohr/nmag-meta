@@ -1,4 +1,4 @@
-cd nsim-master/www
+cd ../www
 make fetch-docs
 make r2w
-cd ../..
+cd ../meta

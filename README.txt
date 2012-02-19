@@ -119,7 +119,15 @@ Related repositories
 Wikis and issues
 ================
 
-In theory, we can have issues and wikis for each of these projects. I suggest we only have one wiki for now (in this nmag-meta repository), and deal with issues in the [[Pivotal Tracker]].
+In theory, we can have issues and wikis for each of these projects. I
+suggest we only have `one wiki <https://bitbucket.org/fangohr/nmag-meta/wiki/Home>`__ for now (in this nmag-meta repository),
+and deal with issues in the `Pivotal Tracker <https://bitbucket.org/fangohr/nmag-meta/wiki/pivotal_tracker>`__.
+
+Short cuts:
+
+* `Wiki <https://bitbucket.org/fangohr/nmag-meta/wiki/Home>`__
+
+* `Tracker <https://www.pivotaltracker.com/projects/482355>`__
 
 We can easily change this, but it seems best to gather tasks and info
 in only one place for now.

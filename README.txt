@@ -106,5 +106,23 @@ Repository structure and directory structure
       └── www  (hg root nmag-www)
 
 
+Related repositories
+====================
+
+* https://bitbucket.org/fangohr/nmag-meta (this one)
+* https://bitbucket.org/fangohr/nmag-doc
+* https://bitbucket.org/fangohr/nmag-dist
+* https://bitbucket.org/fangohr/nmag-src
+* https://bitbucket.org/fangohr/nmag-test
+* https://bitbucket.org/fangohr/nmag-www
+
+Wikis and issues
+================
+
+In theory, we can have issues and wikis for each of these projects. I suggest we only have one wiki for now (in this nmag-meta repository), and deal with issues in the [[Pivotal Tracker]].
+
+We can easily change this, but it seems best to gather tasks and info
+in only one place for now.
+
 
 Hans Fangohr, 19 Feb 2012 
